@@ -17,13 +17,16 @@ window.addEventListener("load", function() {
 
   pText.append("The HTML of this webpage was created with JavaScript.");
   h1Two.append("Facts about the Multicolored Tanager");
-  img.src = "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/202984001/900"  
+  img.src = "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/202984001/900";
+  img.alt = "This is an image of a Multicolored Tanager bird from birdsoftheworld.org";
+  img.style.width = "50%";  
   h2.append("Source");
-  aElement.href = "#";
-  aElement.append("test");
-  body.append(h1One, pText,img, h1Two, ul, h2, aElement);
+  aElement.href = "https://en.wikipedia.org/wiki/Multicoloured_tanager";
+  aElement.append("Wikipedia");
+  body.append(h1One,pText,img, h1Two,ul,h2,aElement);
 
-  li1.append("test");
+  li1.append("It is endemic to the mountains of Colombia.");
+  li2.append("It usually searches for insects on the underside of leaves of outer limbs while clinging to leaves with its feet.");
   document.querySelector("ul").append(li1, li2);
   
   
